@@ -6,16 +6,15 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dedi-yanto-776b861b4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://my-portfolio-foxerincs-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-View%20Projects-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:dediyanto180@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
----
 
 ### 👨‍💻 A bit about me
 
