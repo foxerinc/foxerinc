@@ -1,183 +1,180 @@
-# Hi there 👋
-
+<h1 align="center">Hey, I'm Dedi 👋</h1>
 <p align="center">
-  <a href="https://www.linkedin.com/in/dedi-yanto-776b861b4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://my-portfolio-foxerincs-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Check%20it%20out-111827?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="mailto:dediyanto180@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  💻 Junior Full-Stack Engineer · Go Backend · React Frontend · 📱 Android Dev
 </p>
 
 ---
 
-## 🚀 A bit about my journey
+### 👨‍💻 A bit about me
 
-I started out building Android apps because, honestly, seeing something you coded actually *work* on a device felt like magic. That led me down a rabbit hole into backend development, and now I can't imagine building an app without understanding what's happening on the server side.
+I’m Dedi — a junior engineer who started on Android, got curious about “what actually happens on the server”, and ended up enjoying the whole stack.
 
-Recently I spent **6 months in a full-time, project-based program at SeaLabs Indonesia**, building production-style services with **Go + PostgreSQL** on the backend and **React + TypeScript** on the frontend. That’s where a lot of my “e-wallet / library / pharmacy” projects come from – the code is mine, the expectations were real.
+I studied Computer Science at Universitas Kristen Duta Wacana on a full scholarship and graduated with a 3.92 GPA. These days my time is split between:
 
-These days, I'm that person who gets genuinely excited about:
+- building REST APIs in **Go** with **PostgreSQL**
+- wiring up UIs in **React + TypeScript**
+- and still shipping the occasional **Kotlin / Jetpack Compose** app when Android Studio calls my name again
 
-- Writing Go APIs that don't fall apart under load
-- Making React UIs that actually feel smooth to use
-- Database queries that don't make your server cry
-- And still shipping the occasional **Kotlin / Jetpack Compose** app when Android Studio calls my name again
+I like code that’s easy to read six months later, clear boundaries between layers, and systems that behave well under stress instead of “only works on my machine”.
 
-I graduated from Universitas Kristen Duta Wacana with a 3.92 GPA on a full scholarship (still grateful for that). But the real education came from debugging “why is this transaction deadlocking at 2 AM” and finally understanding how things fit together.
-
-**What I care about:** code that's easy to read six months later, clear boundaries between layers, and systems that behave well under stress instead of “only works on my machine”.
-
-**Current mission:** building a portfolio of projects that don't just work, but work *well*. The kind of code I'd be happy to hand over to another developer and not feel guilty about.
-
-👉 Full story with live demos: **[my-portfolio-foxerincs-projects.vercel.app](https://my-portfolio-foxerincs-projects.vercel.app/)**
+If you want the longer story with demos and screenshots:  
+👉 **[my portfolio](https://my-portfolio-foxerincs-projects.vercel.app/)**
 
 ---
 
-## 🎓 Recent hands-on experience
+### 🧩 How I work
 
-- **SeaLabs Indonesia – Full-stack Engineering Program (Batch 07, 6 months, full-time)**  
-  Built several production-style projects (e-wallet, library system, healthcare platform) using **Go, PostgreSQL, React, TypeScript**.  
-  Worked with clean architecture, relational modeling, Docker, and basic testing / load testing in a team-like environment.
-
-- **Assistant Lecturer – Programming & Android**  
-  Helped students with algorithms, data structures, and Android development, which quietly forced me to actually understand what I was explaining.
+- I treat side projects like “mini-production” apps: ERDs, migrations, API contracts, and a README that actually explains how to run things.
+- I’m comfortable jumping between frontend and backend as long as the **data flow makes sense**.
+- I’d rather ship something small, tested, and observable than a huge feature nobody can debug.
+- I’m not allergic to refactoring. Someone has to clean up the TODOs. 😄
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠 Tech stack
 
-I don't know everything (no one does), but these are the tools and concepts I actually use.
+I don’t know everything (no one does), but these are the tools and concepts I actually use.
 
-### 🎯 At a Glance
+#### 🖥️ Backend
 
 <p align="center">
-  <!-- Backend -->
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gin%20(REST)-008ECF?style=for-the-badge&logo=go&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20API-025E8C?style=for-the-badge&logo=apachespark&logoColor=white"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-  <br/>
-  <!-- Frontend -->
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+</p>
+
+- Language: **Go**
+- API style: **RESTful APIs**, resource-based routing, query params for pagination/sorting/filtering
+- Auth: **JWT-based authentication** (login, protected endpoints)
+- Database: **relational databases** (PostgreSQL), migrations, SQL joins, indexes, constraints, transactions
+- Caching: basic **Redis** usage (lookups, simple caching) *(delete this if you haven’t actually used Redis yet)*
+- Patterns: layered / **clean architecture** (handler → service/use case → repository)
+- Concurrency: **goroutines & channels**, `context` for cancellation & deadlines
+- Testing & API tooling: Postman/Insomnia, basic unit & integration tests
+- Perf & debugging: basic load testing with **k6**, logs and simple profiling
+
+> OAuth2 / Google login: currently learning and experimenting with auth flows.
+
+#### 💻 Frontend
+
+<p align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <br/>
-  <!-- Mobile -->
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/shadcn/ui-111827?style=for-the-badge&logo=radixui&logoColor=white"/>
+</p>
+
+- Core: **React**, **TypeScript**, JavaScript, **HTML5**, **CSS3**
+- Routing: **React Router** (nested routes, protected routes)
+- Data fetching: **TanStack Query (React Query)** for server state, caching, loading/error states, plus **Axios** for HTTP requests
+- Frameworks & tooling: basic **Next.js**, **Vite** for fast dev/build
+- State management: **Zustand** (slices, derived state, middlewares like `persist` / `devtools`), React context where it’s enough
+- Styling & UI: **TailwindCSS**, **shadcn/ui** (Radix-based components), responsive layouts
+- Testing: **Vitest** for unit tests and simple component tests
+- UX basics: form handling & validation, error states, loading skeletons, toasts
+
+#### 📱 Mobile (Android)
+
+<p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpack-compose&logoColor=white"/>
-  <br/>
-  <!-- Tools & Others -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 </p>
 
-### 🖥️ Backend
-- **Language:** Go  
-- **API style:** RESTful APIs, resource-based routing, query params for pagination/sorting/filtering  
-- **Auth:** JWT-based authentication, basic session handling  
-- **Database:** PostgreSQL, migrations, SQL joins, indexes, constraints, transactions  
-- **Architecture:** Layered / clean architecture (handler → service → repository)  
-- **Concurrency:** Goroutines & channels, context usage (cancellation, deadlines)  
-- **Testing:** Basic unit & integration tests, load testing with k6  
-- **Tools:** Docker, Postman/Insomnia  
+- Stack: **Kotlin**, Android Native, **Jetpack Compose**
+- Architecture: **MVVM**, Clean Architecture, modularization, SOLID principles
+- Libraries: Room, Retrofit, Coroutines, Hilt (DI), WorkManager, Navigation, ViewModel
+- Backend integration: REST APIs, auth flows, Firebase (Auth, Realtime DB, FCM)
 
-> **Learning:** OAuth2 / Google login for auth flows
+#### 🛠️ Tools & DevOps
 
-### 💻 Frontend
-- **Core:** React, TypeScript, JavaScript, HTML5, CSS3  
-- **Routing & data:** React Router, TanStack Query (React Query) for server state & caching  
-- **Frameworks:** Basic Next.js, Vite for bundling/dev  
-- **State:** Zustand (store slices, derived state), React context  
-- **Styling:** TailwindCSS, shadcn/ui (Radix-based components), responsive layout  
-- **Testing:** Vitest (unit tests), basic React component testing  
-- **UX:** Forms & validation, error states, loading skeletons, protected routes  
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white"/>
+</p>
 
-### 📱 Mobile (Android)
-- **Stack:** Kotlin, Android Native, Jetpack Compose  
-- **Architecture:** MVVM, Clean Architecture, SOLID principles  
-- **Libraries:** Room, Retrofit, Coroutines, Hilt (DI), WorkManager, Navigation, ViewModel  
-- **Integration:** REST APIs, auth flows, Firebase (Auth, Realtime DB, FCM)  
+- Version control: **Git**, GitHub (branching, pull requests, code review)
+- CI/CD: basic **GitHub Actions** workflows
+- Containers: **Docker**, Docker Compose for local dev setups
+- Environment: Linux as daily dev OS, VS Code, Android Studio, Postman/Insomnia
+- Docs: **Swagger / OpenAPI** for API documentation
 
-### 🛠️ Tools & Practices
-- **Version control:** Git, GitHub (branching, pull requests, code review)  
-- **CI/CD:** Basic GitHub Actions workflows  
-- **Containers:** Docker, Docker Compose for local dev setups  
-- **Environment:** Linux, VS Code, Android Studio  
-- **Docs:** Swagger / OpenAPI for API documentation  
-- **Practices:** ERD modeling, request validation, error handling, separation of concerns, readable functions  
+#### 📚 Fundamentals & concepts
 
-### 🌱 Currently exploring
-- Redis for caching and rate limiting  
-- Deeper observability (structured logs, metrics, traces)  
-- Stronger testing strategies for Go services (table-driven tests, mocks)  
+No fancy badges here, just the foundations:
+
+- **OOP**: encapsulation, abstraction, inheritance, polymorphism (practiced mainly in Kotlin/Android)
+- **DSA basics**: arrays, maps, sets, stacks/queues, simple graph/tree usage
+- **HTTP & REST**: methods, status codes, idempotency, request/response lifecycle
+- **Relational modeling**: ERDs, one-to-many / many-to-many, practical normalization
+- **Clean code**: separation of concerns, smaller functions, meaningful naming
+- Debugging: reading stack traces, logs, using breakpoints instead of guessing
+
+#### 🌱 Currently exploring
+
+- Using **Redis** more seriously for caching and rate limiting
+- Deeper **observability** (structured logs, metrics, traces)
+- Stronger testing strategies for Go services (table-driven tests, mocks)
 
 ---
 
-## 💻 Projects I'm not embarrassed to show
+### 📦 Projects (high-level view)
 
-> Production-style projects with proper READMEs, ERDs, and instructions. Currently cleaning them up for open source.
+> I’m currently cleaning up and open-sourcing a few production-style projects.  
+> Repos will ship with a proper README, ERD and “how to run it” instructions.
 
-**🏦 E-Wallet API** — *Go · PostgreSQL · Docker*  
-REST API for wallets, top-ups, and transfers. Learned a lot about transaction isolation levels here. Features clean architecture, proper error handling, pagination/filtering, and k6 load tests because “it works on my machine” isn’t good enough.
+- 🏦 **E-Wallet API — Go · PostgreSQL · Docker**  
+  REST API for wallet, top-up and transfer. Clean architecture, transaction-safe flows, pagination/filtering, and basic load tests with k6.
 
-**📚 Library Management Service** — *Go · PostgreSQL*  
-Borrow/return system with late penalties. Built proper indexes because watching a query go from 2 seconds to 20ms is oddly satisfying. Includes sorting, filtering, and transaction-safe operations.
+- 📚 **Library Service — Go · PostgreSQL**  
+  Borrow/return system with penalties, sorting and filtering, and indexes to keep queries responsive as data grows.
 
-**💊 Pharmacy Web App** — *React · TypeScript · Zustand*  
-Product listings, pharmacist management, authenticated flows. Responsive UI that actually looks decent on mobile. State management with Zustand because sometimes Redux is overkill.
+- 💊 **Pharmacy / Healthcare Web App — React · TypeScript · Zustand**  
+  Product listing, pharmacist management and authenticated user flows with a responsive UI.
 
-**📱 BearBull Portfolio Tracker** — *Kotlin · Android*  
-MVVM architecture, Room for offline storage, Hilt for DI, WorkManager for syncing. Built this to track stock portfolios, but really it was an excuse to learn modern Android architecture properly.
+- 📱 **BearBull – Portfolio Management (Android)**  
+  Kotlin app with MVVM, Room, Hilt and WorkManager for tracking trades and portfolio performance.
 
-**🧬 Fingerprint Gender Classification** — *Python · Machine Learning*  
-My thesis project using LBP and ridge density features with SVM. Turns out fingerprints have subtle differences between genders. Who knew?
+- 🧬 **Fingerprint Gender Classification (Python)**  
+  Final thesis project using LBP and ridge density features with an SVM classifier.
 
-👉 **More details + screenshots:** [Portfolio](https://my-portfolio-foxerincs-projects.vercel.app/)
-
----
-
-## 🏆 Achievements & Certifications
-
-- **Developer Certification for Android (DCA)** – Dicoding  
-- **Full scholarship winner** – Online Scholarship Competition (OSC) by Metro Group  
-- **Top student in Informatics** – Universitas Kristen Duta Wacana (3.92 GPA)
-- **Sealabs Trainess** - Selected as one of 28+ trainees out of 1000+ applicants to attend twenty-week program held by Sea Labs Indonesia.
+More context and live demos live in the portfolio:  
+👉 **[my-portfolio-foxerincs-projects.vercel.app](https://my-portfolio-foxerincs-projects.vercel.app/)**
 
 ---
 
-## 📊 GitHub Stats
+### 🏅 A few things I’m proud of
 
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=foxerinc&show_icons=true&theme=github_dark&count_private=true" />
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com?user=foxerinc&theme=github-dark" />
-</div>
+- Developer Certification for Android (**DCA**, Dicoding)  
+- Full scholarship winner – **Online Scholarship Competition (OSC)** by Metro Group  
+- Graduated as **top student** in Informatics at Universitas Kristen Duta Wacana (highest GPA)
+
+I’m not perfect, but I take learning seriously and I ship regularly. That combination tends to age well in a codebase.
 
 ---
 
-## 💬 Let's talk
-
-I'm currently looking for **backend, frontend, or full-stack roles** where I can contribute from day one and keep learning. If you're building something interesting (or just want to chat about why Go's error handling is actually good), reach out:
+### 📫 Let’s talk
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dedi-yanto-776b861b4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Dedi%20Yanto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://my-portfolio-foxerincs-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-View%20Projects-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-my--portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:dediyanto180@gmail.com">
-    <img src="https://img.shields.io/badge/Email-dediyanto180@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-dediyanto180%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
