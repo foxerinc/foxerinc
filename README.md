@@ -9,7 +9,7 @@
 
 I’m Dedi — a junior engineer who started on Android, got curious about “what actually happens on the server”, and ended up enjoying the whole stack.
 
-I studied Computer Science at Universitas Kristen Duta Wacana on a full scholarship and graduated with a 3.92 GPA. These days my time is split between:
+I studied Computer Science at **Universitas Kristen Duta Wacana** on a full scholarship and graduated with a **3.92 GPA**. These days my time is split between:
 
 - building REST APIs in **Go** with **PostgreSQL**
 - wiring up UIs in **React + TypeScript**
