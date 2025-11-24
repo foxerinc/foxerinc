@@ -1,35 +1,47 @@
 <h1 align="center">Hey, I'm Dedi 👋</h1>
+
 <p align="center">
-  💻 Junior Full-Stack Engineer · Go Backend · React Frontend · 📱 Android Dev
+  💻 Junior Full-Stack Engineer · Go Backend · React Frontend · Android Dev
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/dedi-yanto-776b861b4/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://my-portfolio-foxerincs-projects.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-View%20Projects-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="mailto:dediyanto180@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 ---
 
 ### 👨‍💻 A bit about me
 
 I’m Dedi — a junior engineer who started on Android, got curious about “what actually happens on the server”, and ended up enjoying the whole stack.
 
-I studied Computer Science at **Universitas Kristen Duta Wacana** on a full scholarship and graduated with a **3.92 GPA**. These days my time is split between:
+I studied Computer Science at Universitas Kristen Duta Wacana on a full scholarship and graduated with a 3.92 GPA. These days my time is split between:
 
 - building REST APIs in **Go** with **PostgreSQL**
 - wiring up UIs in **React + TypeScript**
 - and still shipping the occasional **Kotlin / Jetpack Compose** app when Android Studio calls my name again
 
-I like code that’s easy to read six months later, clear boundaries between layers, and systems that behave well under stress instead of “only works on my machine”.
+**What I value:** Clean code, clear separation of concerns, systems that work well under load, and documentation that actually helps.
 
 If you want the longer story with demos and screenshots:  
 👉 **[my portfolio](https://my-portfolio-foxerincs-projects.vercel.app/)**
 
 ---
 
-### 🧩 How I work
+## 🎓 Recent hands-on experience
 
-- I treat side projects like “mini-production” apps: ERDs, migrations, API contracts, and a README that actually explains how to run things.
-- I’m comfortable jumping between frontend and backend as long as the **data flow makes sense**.
-- I’d rather ship something small, tested, and observable than a huge feature nobody can debug.
-- I’m not allergic to refactoring. Someone has to clean up the TODOs. 😄
+- **SeaLabs Indonesia – Full-stack Engineering Program (Batch 07, 6 months, full-time)**  
+  Built several production-style projects (e-wallet, library system, healthcare platform) using **Go, PostgreSQL, React, TypeScript**.  
+  Worked with clean architecture, relational modeling, Docker, and basic testing / load testing in a team-like environment.
 
----
+- **Assistant Lecturer – Programming & Android**  
+  Helped students with algorithms, data structures, and Android development, which quietly forced me to actually understand what I was explaining.
 
 ### 🛠 Tech stack
 
@@ -44,20 +56,22 @@ I don’t know everything (no one does), but these are the tools and concepts I 
   <img src="https://img.shields.io/badge/REST%20API-025E8C?style=for-the-badge&logo=apachespark&logoColor=white"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Loki-4A5D75?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jaeger-65A30D?style=for-the-badge&logo=jaeger&logoColor=white"/>
 </p>
 
 - Language: **Go**
-- API style: **RESTful APIs**, resource-based routing, query params for pagination/sorting/filtering
-- Auth: **JWT-based authentication** (login, protected endpoints)
-- Database: **relational databases** (PostgreSQL), migrations, SQL joins, indexes, constraints, transactions
-- Caching: basic **Redis** usage (lookups, simple caching) *(delete this if you haven’t actually used Redis yet)*
+- API style: **RESTful APIs**, resource-based routing, query parameters for pagination, sorting, and filtering
+- Auth: **JWT-based authentication** and basic **OAuth2 / Google login** for protected endpoints and social sign-in
+- Database: **relational databases** (PostgreSQL), migrations, SQL joins, indexes, constraints, and transactions
+- Caching: basic **Redis** usage for lookups and simple caching
 - Patterns: layered / **clean architecture** (handler → service/use case → repository)
-- Concurrency: **goroutines & channels**, `context` for cancellation & deadlines
-- Testing & API tooling: Postman/Insomnia, basic unit & integration tests
-- Perf & debugging: basic load testing with **k6**, logs and simple profiling
-
-> OAuth2 / Google login: currently learning and experimenting with auth flows.
+- Concurrency: **goroutines & channels**, `context` for cancellation and deadlines
+- Testing & API tooling: **Postman**, basic unit and integration tests
+- Performance & debugging: load testing with **k6**, application logs, and simple profiling
 
 #### 💻 Frontend
 
@@ -75,12 +89,12 @@ I don’t know everything (no one does), but these are the tools and concepts I 
 
 - Core: **React**, **TypeScript**, JavaScript, **HTML5**, **CSS3**
 - Routing: **React Router** (nested routes, protected routes)
-- Data fetching: **TanStack Query (React Query)** for server state, caching, loading/error states, plus **Axios** for HTTP requests
+- Data fetching: **TanStack Query (React Query)** for server state, caching, and loading/error handling, plus **Axios** for HTTP requests
 - Frameworks & tooling: basic **Next.js**, **Vite** for fast dev/build
 - State management: **Zustand** (slices, derived state, middlewares like `persist` / `devtools`), React context where it’s enough
 - Styling & UI: **TailwindCSS**, **shadcn/ui** (Radix-based components), responsive layouts
 - Testing: **Vitest** for unit tests and simple component tests
-- UX basics: form handling & validation, error states, loading skeletons, toasts
+- UX basics: form handling and validation, error states, loading skeletons, toasts
 
 #### 📱 Mobile (Android)
 
@@ -108,25 +122,24 @@ I don’t know everything (no one does), but these are the tools and concepts I 
 - Version control: **Git**, GitHub (branching, pull requests, code review)
 - CI/CD: basic **GitHub Actions** workflows
 - Containers: **Docker**, Docker Compose for local dev setups
-- Environment: Linux as daily dev OS, VS Code, Android Studio, Postman/Insomnia
+- Environment: Linux as daily dev OS, VS Code, Android Studio, Postman
+- Infra & observability: basic **Nginx** reverse proxy, **OpenTelemetry** collector, **Grafana** dashboards, **Loki** for logs, and **Jaeger** for traces
 - Docs: **Swagger / OpenAPI** for API documentation
 
 #### 📚 Fundamentals & concepts
-
-No fancy badges here, just the foundations:
 
 - **OOP**: encapsulation, abstraction, inheritance, polymorphism (practiced mainly in Kotlin/Android)
 - **DSA basics**: arrays, maps, sets, stacks/queues, simple graph/tree usage
 - **HTTP & REST**: methods, status codes, idempotency, request/response lifecycle
 - **Relational modeling**: ERDs, one-to-many / many-to-many, practical normalization
 - **Clean code**: separation of concerns, smaller functions, meaningful naming
-- Debugging: reading stack traces, logs, using breakpoints instead of guessing
+- Debugging: reading stack traces and logs, using breakpoints instead of guessing
 
 #### 🌱 Currently exploring
 
-- Using **Redis** more seriously for caching and rate limiting
-- Deeper **observability** (structured logs, metrics, traces)
-- Stronger testing strategies for Go services (table-driven tests, mocks)
+- Using **Redis** and caching patterns more deeply in real workloads
+- More structured **observability** setups for Go services
+- Stronger testing strategies (table-driven tests, mocks, and better coverage)
 
 ---
 
@@ -157,11 +170,10 @@ More context and live demos live in the portfolio:
 
 ### 🏅 A few things I’m proud of
 
-- Developer Certification for Android (**DCA**, Dicoding)  
-- Full scholarship winner – **Online Scholarship Competition (OSC)** by Metro Group  
-- Graduated as **top student** in Informatics at Universitas Kristen Duta Wacana (highest GPA)
-
-I’m not perfect, but I take learning seriously and I ship regularly. That combination tends to age well in a codebase.
+- **Developer Certification for Android (DCA)** – Dicoding
+- **Full Scholarship Winner** – Online Scholarship Competition (OSC) by Metro Group
+- **Top Graduate in Informatics** – Universitas Kristen Duta Wacana (3.92 GPA)
+- **Sealabs Trainess** - Selected as one of 28+ trainees out of 1000+ applicants to attend twenty-week program held by Sea Labs Indonesia.
 
 ---
 
