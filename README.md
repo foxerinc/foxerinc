@@ -42,6 +42,26 @@ If you want the longer story with demos and screenshots:
 - **Assistant Lecturer – Programming & Android**  
   Helped students with algorithms, data structures, and Android development, which quietly forced me to actually understand what I was explaining.
 
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=foxerinc&show_icons=true&theme=github_dark&count_private=true" />
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com?user=foxerinc&theme=github-dark" />
+</div>
+
+---
+
+### 🏅 A few things I’m proud of
+
+- **Developer Certification for Android (DCA)** – Dicoding
+- **Full Scholarship Winner** – Online Scholarship Competition (OSC) by Metro Group
+- **Top Graduate in Informatics** – Universitas Kristen Duta Wacana (3.92 GPA)
+- **Sealabs Trainess** - Selected as one of 28+ trainees out of 1000+ applicants to attend twenty-week program held by Sea Labs Indonesia.
+
+---
+
 ### 🛠 Tech stack
 
 I don’t know everything (no one does), but these are the tools and concepts I actually use.
@@ -167,14 +187,6 @@ More context and live demos live in the portfolio:
 
 ---
 
-### 🏅 A few things I’m proud of
-
-- **Developer Certification for Android (DCA)** – Dicoding
-- **Full Scholarship Winner** – Online Scholarship Competition (OSC) by Metro Group
-- **Top Graduate in Informatics** – Universitas Kristen Duta Wacana (3.92 GPA)
-- **Sealabs Trainess** - Selected as one of 28+ trainees out of 1000+ applicants to attend twenty-week program held by Sea Labs Indonesia.
-
----
 
 ### 📫 Let’s talk
 
